@@ -1,2 +1,51 @@
+#![NucleotidesAreJustHumanBytes](https://i.imgur.com/pjgoejH.png)
 # dna
-A self-describing protocol (TATATATA)
+
+
+## Why `dna` when we have `protobuf` and `cap'n-proto`
+They're great; probably better than this implementation, but protobuf isn't worth learning because they don't document enough for me, and cap'n proto specifies this on thier documentation:
+
+> Any change not listed above should be assumed NOT to be safe. In particular:<br>
+> 
+> You cannot change a field, method, or enumerant’s number.<br>
+> You cannot change a field or method parameter’s type or default value.<br>
+> You cannot change a type’s ID.<br>
+> You cannot change the name of a type that doesn’t have an explicit ID, as the implicit ID is generated based in part on the type name.<br>
+> You cannot move a type to a different scope or file unless it has an explicit ID, as the implicit ID is based in part on the scope’s ID.<br>
+> You cannot move an existing field into or out of an existing union, nor can you form a new union containing more than one existing field. <br>
+
+## Why call it `dna`?
+
+<s>I have the undergraduate prereqs to apply for med school, but I love software more</s>
+
+This design combines a "proto-protocol" inspired by mechanisms in both DNA transcription and simple bootloaders.
+
+## Okay, but again, why `dna` when we have `protobuf` and `cap'n-proto`?
+If you step back and think about this for a second -- DNA, something even fewer primitives than an the ones we use in systems programming, manages to encode a self-describing protocol that supports changing "fields", "default values", "ID's", and DNA Helicase does this with only a small number of "algorithms", yet somehow we can't seem to support this on pure-math machines? (Mm.. I'm not so sure.)
+
+Cellular biology contains some of nature's most fascinating infrastructure. The human DNA protocol "supports" mutations, transactions, cloning, and even transmission. We can borrow the principles as abstractions and apply them to software. If nature-inspired designs work in A.I., then it should also be true that we can borrow nature-inspired designs to work for IO protocol conception.
+
+## What does `dna` do?
+`dna`, a cartoonishly-DNA-shaped manager with a clipboard, initializes a queue and reads an input source. It reads this stream, walking along to visit every sequential slot to ask for the value held there.<br> 
+"`0x08`", says the oldest resident.<br>
+
+`dna` never looks up. <br>
+"Uh-huh", recording their response.<br>
+
+It advances in this fashion, never looking up from the clipboard — failing to notice how the age on the responders grows younger and younger.
+Every so often, there's a blank slot. `dna` doesn't care, though. Just records what they saw.<br>
+Sometimes, there's a random younger resident near the front, but for the most part `dna` only ever sees the most senior attendees at the start.<br>
+
+Near the end, however, `dna` gets annoyed. The answers start becoming obnoxiously repetitive. 
+"`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
+"`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
+"`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
+"`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
+"`...`"
+
+`dna` clenches up and snaps their pen. "What the hell is going on he-"<br>
+They look up.<br>
+"Oh!", `dna` chuckles. "Looks like we're done."
+
+, recording pointer addresses until it reaches the "stop" point. Next, the reader collects the remaining buffer and reverses its order.
+Imag interprets every address as an indirected pointer to the 
