@@ -42,9 +42,14 @@ Near the end, however, `Heli` gets annoyed. The answers start becoming obnoxious
 "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
 "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
 "`...`"
+"`0x00000000`", "`0x00000000`", "`0x00000000`", "`0x00000000`",<br>
+"`0x00000000`", "`0x00000000`", "`0x00000000`", "`0x00000000`",<br>
+"`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
+"`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
 
 `Heli` clenches up and snaps their pen. "What the hell is going on he-"<br>
 They look up.<br>
 "Oh!", `Heli` chuckles. "Looks like we're done."
 
 Next, they read over their notes, flip the page upside-down, and walk over to the address with the last thing that wasn't part of that obnoxious `0x00` `0xFF` business.
+
