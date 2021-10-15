@@ -27,7 +27,7 @@ Cellular biology contains some of nature's most fascinating infrastructure. The 
 
 ## What does `dna` do?
 `dna`'s best employee, "`Heli`", a cartoonishly-shaped protein with a clipboard, initializes a queue and reads an input source. It reads this stream, walking along to visit every sequential slot to ask for the value held there.<br> 
-"`0x08`", says the oldest resident.<br>
+"`0x00000008`", says the oldest resident.<br>
 
 `Heli` never looks up. <br>
 "Uh-huh", recording their response.<br>
@@ -37,10 +37,10 @@ Every so often, there's a blank slot. `Heli` doesn't care, though. Just records 
 Sometimes, there's a random younger resident near the front, but for the most part `Heli` only ever sees the most senior attendees at the start.<br>
 
 Near the end, however, `Heli` gets annoyed. The answers start becoming obnoxiously repetitive.<br>
-"`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
-"`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
-"`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
-"`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
+"`0x00000000`", "`0x00000000`", "`0x00000000`", "`0x00000000`",<br>
+"`0x00000000`", "`0x00000000`", "`0x00000000`", "`0x00000000`",<br>
+"`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
+"`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
 "`...`"
 
 `Heli` clenches up and snaps their pen. "What the hell is going on he-"<br>
