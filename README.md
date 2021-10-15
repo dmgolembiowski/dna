@@ -21,7 +21,7 @@ They're great; probably better than this implementation, but protobuf isn't wort
 This design combines a "proto-protocol" inspired by mechanisms in both DNA transcription and simple bootloaders.
 
 ## Okay, but again, why `dna` when we have `protobuf` and `cap'n-proto`?
-If you step back and think about this for a second -- DNA, something even fewer primitives than the ones we have in systems programming, manages to encode a self-describing protocol that supports changing "fields", "default values", and "ID's". Yet somehow we can't seem to support this on pure-math machines? 
+If you step back and think about this for a second -- DNA, something even fewer primitives than the ones we have in systems programming, manages to encode a self-describing protocol that supports changing "fields", "default values", and "ID's". Yet somehow we can't seem to support this on purely mathematical machine? 
 
 I don't buy it.
 
