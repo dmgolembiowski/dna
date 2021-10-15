@@ -26,26 +26,25 @@ If you step back and think about this for a second -- DNA, something even fewer 
 Cellular biology contains some of nature's most fascinating infrastructure. The human DNA protocol "supports" mutations, transactions, cloning, and even transmission. We can borrow the principles as abstractions and apply them to software. If nature-inspired designs work in A.I., then it should also be true that we can borrow nature-inspired designs to work for IO protocol conception.
 
 ## What does `dna` do?
-`dna`, a cartoonishly-DNA-shaped manager with a clipboard, initializes a queue and reads an input source. It reads this stream, walking along to visit every sequential slot to ask for the value held there.<br> 
+`dna`'s best employee, "`Heli`", a cartoonishly-shaped protein with a clipboard, initializes a queue and reads an input source. It reads this stream, walking along to visit every sequential slot to ask for the value held there.<br> 
 "`0x08`", says the oldest resident.<br>
 
-`dna` never looks up. <br>
+`Heli` never looks up. <br>
 "Uh-huh", recording their response.<br>
 
 It advances in this fashion, never looking up from the clipboard — failing to notice how the age on the responders grows younger and younger.
-Every so often, there's a blank slot. `dna` doesn't care, though. Just records what they saw.<br>
-Sometimes, there's a random younger resident near the front, but for the most part `dna` only ever sees the most senior attendees at the start.<br>
+Every so often, there's a blank slot. `Heli` doesn't care, though. Just records what they saw.<br>
+Sometimes, there's a random younger resident near the front, but for the most part `Heli` only ever sees the most senior attendees at the start.<br>
 
-Near the end, however, `dna` gets annoyed. The answers start becoming obnoxiously repetitive.<br>
+Near the end, however, `Heli` gets annoyed. The answers start becoming obnoxiously repetitive.<br>
 "`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
 "`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
 "`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
 "`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
 "`...`"
 
-`dna` clenches up and snaps their pen. "What the hell is going on he-"<br>
+`Heli` clenches up and snaps their pen. "What the hell is going on he-"<br>
 They look up.<br>
-"Oh!", `dna` chuckles. "Looks like we're done."
+"Oh!", `Heli` chuckles. "Looks like we're done."
 
-, recording pointer addresses until it reaches the "stop" point. Next, the reader collects the remaining buffer and reverses its order.
-Imag interprets every address as an indirected pointer to the 
+Next, they read over their notes, flip the page upside-down, and walk over to the address with the last thing that wasn't part of that obnoxious `0x00` `0xFF` business.
