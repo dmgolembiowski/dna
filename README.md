@@ -31,7 +31,7 @@ Cellular biology contains some of nature's most fascinating infrastructure. The 
 "`0x00000008`", says the oldest resident.<br>
 
 `Heli` never looks up. <br>
-"Uh-huh", scribling on the clipboard.<br>
+"Uh-huh", scribbling on the clipboard.<br>
 
 It advances in this fashion, never looking up from the clipboard — failing to notice how the age on the responders grows younger and younger.
 Every so often, there's a blank slot. `Heli` doesn't care, though. Just records what they saw.<br>
