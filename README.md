@@ -21,7 +21,7 @@ They're great; probably better than this implementation, but protobuf isn't wort
 This design combines a "proto-protocol" inspired by mechanisms in both DNA transcription and simple bootloaders.
 
 ## Okay, but again, why `dna` when we have `protobuf` and `cap'n-proto`?
-If you step back and think about this for a second -- DNA, something even fewer primitives than an the ones we use in systems programming, manages to encode a self-describing protocol that supports changing "fields", "default values", "ID's", and DNA Helicase does this with only a small number of "algorithms", yet somehow we can't seem to support this on pure-math machines? (Mm.. I'm not so sure.)
+If you step back and think about this for a second -- DNA, something even fewer primitives than the ones we have in systems programming, manages to encode a self-describing protocol that supports changing "fields", "default values", "ID's", and DNA Helicase does this with only a small number of "algorithms", yet somehow we can't seem to support this on pure-math machines? (Mm.. I'm not so sure.)
 
 Cellular biology contains some of nature's most fascinating infrastructure. The human DNA protocol "supports" mutations, transactions, cloning, and even transmission. We can borrow the principles as abstractions and apply them to software. If nature-inspired designs work in A.I., then it should also be true that we can borrow nature-inspired designs to work for IO protocol conception.
 
