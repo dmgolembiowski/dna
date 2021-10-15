@@ -27,6 +27,7 @@ Cellular biology contains some of nature's most fascinating infrastructure. The 
 
 ## What does `dna` do?
 `dna`'s best employee, "`Heli`", a cartoonishly-shaped protein with a clipboard, initializes a queue and reads an input source. It reads this stream, walking along to visit every sequential slot to ask for the value held there.<br> 
+<br>
 "`0x00000008`", says the oldest resident.<br>
 
 `Heli` never looks up. <br>
