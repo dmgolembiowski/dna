@@ -50,7 +50,7 @@ Near the end, however, `Heli` gets annoyed. The answers start becoming obnoxious
 "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
 "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`", "`0xFFFFFFFF`",<br>
 
-`Heli` clenches up and snaps their pen. "What the helicase is going on he-"<br>
+`Heli` clenches up and snaps their pen. "What the hel-icase is going on here?"<br>
 They look up.<br>
 "Oh!", `Heli` chuckles. "Looks like we're done."
 
