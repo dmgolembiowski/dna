@@ -36,7 +36,7 @@ It advances in this fashion, never looking up from the clipboard — failing to 
 Every so often, there's a blank slot. `dna` doesn't care, though. Just records what they saw.<br>
 Sometimes, there's a random younger resident near the front, but for the most part `dna` only ever sees the most senior attendees at the start.<br>
 
-Near the end, however, `dna` gets annoyed. The answers start becoming obnoxiously repetitive. 
+Near the end, however, `dna` gets annoyed. The answers start becoming obnoxiously repetitive.<br>
 "`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
 "`0xFF`", "`0xFF`", "`0xFF`", "`0xFF`",<br>
 "`0x00`", "`0x00`", "`0x00`", "`0x00`",<br>
